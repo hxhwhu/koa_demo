@@ -1,0 +1,19 @@
+{
+  "name": "koa_demo",
+  "version": "1.0.0",
+  "description": "use koa to develop node.js web server",
+  "main": "app.js",
+  "scripts": {
+    "dev": "node app.js"
+  },
+  "author": "hxhwhu",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.14.2",
+    "koa-bodyparser": "^4.4.1",
+    "koa-router": "^11.0.2",
+    "koa-static": "^5.0.0",
+    "koa2-cors": "^2.0.6",
+    "mysql": "^2.18.1"
+  }
+}
